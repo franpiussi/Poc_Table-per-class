@@ -14,7 +14,7 @@ import java.util.List;
 @RequestMapping("/players")
 public class PlayerController {
 
-    private static final String PLAYER_NOT_FOUND_id = "/ No existe el equipo con el id: %s";
+    private static final String PLAYER_NOT_FOUND_id = "/ No existe el jugador con el id: %s";
 
     @Autowired
     private PlayerRepository playerRepository;

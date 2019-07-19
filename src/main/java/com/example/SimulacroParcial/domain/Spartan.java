@@ -8,8 +8,6 @@ import javax.persistence.Entity;
 @Data
 @Entity
 @ToString
-public class Player extends Person{
-
-    private int numeroCamiseta;
-    private String posicion;
+public class Spartan extends Person  {
+    private String toleranciaExtra;
 }
